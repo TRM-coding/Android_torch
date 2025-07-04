@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+    // 如果你用 Kotlin，还可以加：id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdkVersion 30
+    namespace "com.example.helloworld"
+
+    defaultConfig {
+        applicationId "com.example.helloworld"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+}
