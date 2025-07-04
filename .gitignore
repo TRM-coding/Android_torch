@@ -3,3 +3,5 @@
 
 # Ignore Gradle build output directory
 app/build/
+models/
+app/src/main/assets
